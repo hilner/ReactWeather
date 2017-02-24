@@ -3,8 +3,19 @@ var React = require('react');
 var About = (props) => {
   return (
     <div>
-      <h3>About</h3>
-      <p>Pagina About.</p>
+      <h1 className="text-center">Sobre</h1>
+      <p>App feita em React.</p>
+      <p>Softwares usados:</p>
+      <ul>
+        <li>
+          <a href="https://facebook.guthub.io/react">React</a>
+          -Framework Javascript usado.
+        </li>
+        <li>
+          <a href="http://openweathermap.com">Open Weather Map</a>
+          -Dados da temperatura usados.
+        </li>
+      </ul>
     </div>
   )
 };
