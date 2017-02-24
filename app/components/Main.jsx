@@ -4,9 +4,9 @@ var Nav = require('Nav');
 var Main = (props) => {
   return (
     <div>
-    <Nav/>
-    <h2>componente Main</h2>
-    {props.children}
+      <Nav/>
+      <h2>componente Main</h2>
+      {props.children}
     </div>
   )
 };
